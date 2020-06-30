@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Sign in-Site_name</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="loginssc.css">
+
+
+</head>
+<body>
+
+
+<!--------------------------------------------------Navbar----------------------------------------------->
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container">
+		<a href="" class="navbar-brand text-dark">SITE_LOGO</a>
+
+
+
+
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#nv">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		
+		
+
+		<div class="collapse navbar-collapse" id="nv">
+			<ul class="navbar-nav text-center ml-auto">
+				<li class="nav-item" id="li1">
+					<a href="index.html" class="nav-link text-white">HOME</a>
+				</li>
+				<li class="nav-item" id="li2">
+					<a href="#" class="nav-link text-white">ABOUT US</a>
+				</li>
+				<li class="nav-item" id="li3">
+					<a href="#" class="nav-link text-white">OUR SERVICES</a>
+				</li>
+				<li class="nav-item" id="li4">
+					<a href="login.html" class="nav-link text-white">SIGN IN</a>
+				</li>
+				
+
+			</ul>
+			
+		</div>
+	</div>
+</nav>
+<br><br><br>
+<!--------------------------------------------------login----------------------------------------------->
+
+
+
+
+<div class="container-fluid col-12 col-sm-6 col-md-4">
+	<section class="row justify-content-center">
+<div id="boxlogin">
+ <form>
+ <caption> <h2 id="hhh">CREATE AN ACCOUNT</h2></caption><br>
+ 
+
+<div class="form-group">
+	<label for="user">First Name: </label><br>
+	
+    <input type="text" id="user" class="form-control">
+
+</div>
+
+<div class="form-group">
+	<label for="srnm">Surname: </label><br>
+    <input type="text" id="srnm" class="form-control">
+</div>
+
+
+<div class="form-group">
+	<label for="mobi">Mobile OR E-mail: </label><br>
+   <input type="text" id="mobi" class="form-control">
+</div>
+
+
+<div class="form-group">
+	
+	<label id="name3">GENDER: </label><br>
+	<select name=" " id="name3">
+                 <option>MALE</option>
+                 <option>FEMALE</option>
+                 <option>OTHERS</option>
+                 
+                 </select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+	<label for="dob">D.O.B: </label><br>
+    <input type="Date" id="dob" class="form-control">
+</div>
+
+
+<div class="form-group">
+	<label id="name5">Role: </label><br>
+	<select name=" " id="name5">
+                 <option>Need HELP</option>
+                 <option>Want to HELP</option>
+                 <option>Both</option>
+                 <option>Pshycatarist</option>
+                 </select>
+</div>
+
+<div class="form-group">
+	<label for="pss">New Password: </label><br>
+	
+    <input type="password" id="pss" class="form-control"  data-toggle="tooltip" data-placement="right" title="8 Characters suggested for a Strong Password">
+</div>
+
+<input type="submit" id="btnn" class="btn btn-danger btn-lg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</div>
+ </section>
+</div>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+
+</body>
+</html>

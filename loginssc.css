@@ -1,0 +1,84 @@
+body
+{
+	background: #383a3d;
+}
+
+#boxlogin
+{
+	  border: 1px solid grey;
+	 border-radius:20px;
+	padding: 20px;
+	 
+	 background-color: aliceblue;
+}
+
+#btnn
+{
+	
+	margin-left: 30%;
+}
+
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+
+
+
+/*	 
+#srnm
+{
+	width: 50%;
+    
+}
+
+#mobi
+{
+	width: 50%;
+
+}
+
+#try{
+	margin-left: 30%;
+}
+
+#pss
+{
+	width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
